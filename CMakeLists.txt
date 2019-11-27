@@ -7,6 +7,6 @@ include_directories("${CMAKE_SOURCE_DIR}")
 
 add_subdirectory(A)
 
-add_executable(B/main.cpp B/main.h)
+add_executable(build_systems B/main.cpp B/main.h)
 
 target_link_libraries(build_systems PUBLIC lib)

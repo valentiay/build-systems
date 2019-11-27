@@ -7,8 +7,22 @@
 
 #include <string>
 
+/**
+ * @brief Returns world
+ *
+ * Returns the `world` word
+ *
+ * @return world
+ */
 std::string world();
 
+/**
+ * @brief Returns everyone
+ *
+ * Returns the `everyone` word
+ *
+ * @return everyone
+ */
 std::string everyone();
 
 #endif //BUILD_SYSTEMS_LIB_H
